@@ -8,15 +8,15 @@ Time spent: 6 hours spent in total
 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types: 
-    - Tested in version:
-    - Fixed in version: 4.2
+    - Vulnerability types: Authenticated stored Cross-Site Scripting (XSS)
+    - Tested in version: 4.2
+    - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: <br /> ![](CrossScriptingOne.gif)
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br /> <ul><li>Create a post </li> <li>Add the following to the post : <script type="text/javascript">alert("Hiiii");</script>" </li> <li> Publish </li> <li>Visit Post </li>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+  - [ ] Summary: Authenticated Stored Cross-Site Scripting via Image Filename
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 4.2
@@ -26,8 +26,8 @@ Time spent: 6 hours spent in total
   - [ ] Affected source code: 
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
+  - [ ] Summary:
+    - Vulnerability types: Password Brute Force Attack
     - Tested in version:
     - Fixed in version: 4.2
   - [ ] GIF Walkthrough: <br />
