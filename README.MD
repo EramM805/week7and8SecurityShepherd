@@ -8,9 +8,9 @@ Time spent: 6 hours spent in total
 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: 
     - Tested in version:
-    - Fixed in version: 
+    - Fixed in version: 4.2
   - [ ] GIF Walkthrough: <br /> ![](CrossScriptingOne.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
@@ -19,41 +19,33 @@ Time spent: 6 hours spent in total
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
+    - Fixed in version: 4.2
   - [ ] GIF Walkthrough: <br />
     ![](EramCrossSiteScriptingTwo.gif)
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] Affected source code: 
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
+    - Fixed in version: 4.2
   - [ ] GIF Walkthrough: <br />
      ![](EramUserEnumerating.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
+    - Tested in version: 4.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:  <br />
+  ![](EramCrossSiteScriptingTwo.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-      ![]EramUserEnumerating.gif
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+
 
 ## Assets
 
