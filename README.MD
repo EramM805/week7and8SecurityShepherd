@@ -58,7 +58,7 @@ Time spent: 6 hours spent in total
     - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough:  <br />
   ![](EramCrossSiteScriptingTwo.gif)
-  - [ ] Steps to recreate: <br /><ul><li>Create a new page <li> <Add a youtube embed url such as : [embed src='https://youtube.com/embed/minnie\x3csvg onload=alert(12)\x3e'][/embed]</li><li>Publish</li><li>View Page</li></ul>
+  - [ ] Steps to recreate: <br /><ul><li>Create a new page <li> Add a youtube embed url such as : [embed src='https://youtube.com/embed/minnie\x3csvg onload=alert(12)\x3e'][/embed]</li><li>Publish</li><li>View Page</li></ul>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
 
