@@ -32,7 +32,8 @@ Time spent: 6 hours spent in total
     - Fixed in version: N/A
   - [ ] GIF Walkthrough: <br />
      ![](EramUserEnumerating.gif)
-  - [ ] Steps to recreate: <br /> <ul><li>Install worlists and get rockyou-75.txt</li> ```
+  - [ ] Steps to recreate: <br /> <ul><li>Install worlists and get rockyou-75.txt</li> 
+  ```
     $ apt-get install wordlists
       $ cd \usr\share\wordlists\
       $ gzip -d rockyou.txt.gz
