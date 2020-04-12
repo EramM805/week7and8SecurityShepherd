@@ -40,16 +40,12 @@ Time spent: 6 hours spent in total
   ```
   <li> Get Api token from https://wpvulndb.com/ </li>
   <li> use token to find users : </li>
-  ``` 
-    $ wpscan --url wpdistillery.vm -e u vp --api-token <token name> </li>
-  ``` 
+     $ wpscan --url wpdistillery.vm -e u vp --api-token <token name> </li>
   <li> use token to find password using rockyou-75.txt file: </li>
- ``` 
-  $ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token <token name>
-  ``` 
+    $ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token <token name>
 </ul>
-  - [ ] Affected source code:
-    - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-login.php)
+  - [ ] Affected source code: <br />
+    - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-login.php) <br />
 4. (Optional) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
     - Vulnerability types: XSS
