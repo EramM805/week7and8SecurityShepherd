@@ -29,10 +29,14 @@ Time spent: 6 hours spent in total
   - [ ] Summary:
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
-    - Fixed in version:
+    - Fixed in version: N/A
   - [ ] GIF Walkthrough: <br />
      ![](EramUserEnumerating.gif)
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br /> <ul><li>Install worlists and get rockyou-75.txt</li> ```
+    $ apt-get install wordlists
+      $ cd \usr\share\wordlists\
+      $ gzip -d rockyou.txt.gz
+    ```</ul>
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-login.php)
 4. (Optional) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
@@ -60,7 +64,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Setting up the project was the most difficult. Error messages while setting up where not descriptive so had to try out different solutions to issues.
 
 ## License
 
