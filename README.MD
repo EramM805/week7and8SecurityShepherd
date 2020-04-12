@@ -15,23 +15,23 @@ Time spent: 6 hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
   - [ ] GIF Walkthrough: <br />
-    ![](CrossScriptingOne.gif)
+    ![](EramCrossSiteScriptingTwo.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
   - [ ] GIF Walkthrough: <br />
-     ![]EramCrossSiteScriptingTwo.gif
+     ![](EramUserEnumerating.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
