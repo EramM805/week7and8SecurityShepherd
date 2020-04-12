@@ -6,45 +6,45 @@ Time spent: 6 hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) Vulnerability Name or ID:  Authenticated stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types: Authenticated stored Cross-Site Scripting (XSS)
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: <br /> ![](CrossScriptingOne.gif)
-  - [ ] Steps to recreate: <br /> <ul><li>Create a post </li> <li>Add the following to the post : <script type="text/javascript">alert("Hiiii");</script>" </li> <li> Publish </li> <li>Visit Post </li>
+  - [ ] Steps to recreate: <br /> <ul><li>Create a post </li> <li>Add the following to the post : <script type="text/javascript">alert("Hiiii");</script> </li> <li> Publish </li> <li>Visit Post </li> </ul>
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: Authenticated Stored Cross-Site Scripting via Image Filename
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 4.2
+    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/post.php)
+2. (Required) Vulnerability Name or ID : Authenticated Stored Cross-Site Scripting via Image Filename
+  - [ ] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: <br />
-    ![](EramCrossSiteScriptingTwo.gif)
-  - [ ] Steps to recreate: 
+    ![](EramCrossSiteScriptingFour.gif)
+  - [ ] Steps to recreate: <br /> <ul><li>Upload a Image </li> <li>Add the following to the title of the image : Minnie<img src="#" onerror="alert('Hi its Minnie')";/>.jpg </li><li>Visit the page </li></ul>
   - [ ] Affected source code: 
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. (Required) Vulnerability Name or ID
+    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
+3. (Required) Vulnerability Name or ID : Password Brute Force Attack
   - [ ] Summary:
-    - Vulnerability types: Password Brute Force Attack
-    - Tested in version:
-    - Fixed in version: 4.2
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version:
   - [ ] GIF Walkthrough: <br />
      ![](EramUserEnumerating.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-4. (Optional) Vulnerability Name or ID
+    - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-login.php)
+4. (Optional) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough:  <br />
   ![](EramCrossSiteScriptingTwo.gif)
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br /><ul><li>Create a new page <li> <Add a youtube embed url such as : [embed src='https://youtube.com/embed/minnie\x3csvg onload=alert(12)\x3e'][/embed]</li><li>Publish</li><li>View Page</li></ul>
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
 
 
 ## Assets
