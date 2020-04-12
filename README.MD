@@ -39,8 +39,8 @@ Time spent: 6 hours spent in total
       $ cd \usr\share\wordlists\
       $ gzip -d rockyou-75.txt.gz 
   ``` 
-    - Get Api token from https://wpvulndb.com/ 
-    - use token to find users : 
+   - Get Api token from https://wpvulndb.com/ 
+   - use token to find users : 
   ```
       $ wpscan --url wpdistillery.vm -e u vp --api-token (token name) 
   ```
