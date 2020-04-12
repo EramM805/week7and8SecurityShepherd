@@ -40,14 +40,14 @@ Time spent: 6 hours spent in total
   ```
   <li> Get Api token from https://wpvulndb.com/ </li>
   <li> use token to find users
-  ```
+ ``` 
     $ wpscan --url wpdistillery.vm -e u vp --api-token <token name>
-  ```
+  ``` 
   </li>
   <li> use token to find password
-  ```
+ ``` 
     $ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token <token name>
-  ```
+  ``` 
   </li>
 </ul>
   - [ ] Affected source code:
