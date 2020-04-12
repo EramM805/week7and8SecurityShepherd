@@ -20,7 +20,8 @@ Time spent: 6 hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: ![](CrossScriptingOne.gif)
+  - [ ] GIF Walkthrough: 
+    ![](CrossScriptingOne.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -29,7 +30,8 @@ Time spent: 6 hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: EramCrossSiteScriptingTwo.gif
+  - [ ] GIF Walkthrough: 
+     ![]EramCrossSiteScriptingTwo.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -47,7 +49,8 @@ Time spent: 6 hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: EramUserEnumerating.gif
+  - [ ] GIF Walkthrough: 
+      ![]EramUserEnumerating.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
