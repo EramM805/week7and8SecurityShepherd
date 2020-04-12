@@ -39,7 +39,12 @@ Time spent: 6 hours spent in total
       $ gzip -d rockyou-75.txt.gz 
   ``` 
   <li> Get Api token from https://wpvulndb.com/ </li><li> use token to find users : </li>
-```
+ ``` 
+      $ apt-get install wordlists
+      $ cd \usr\share\wordlists\
+      $ gzip -d rockyou-75.txt.gz 
+  ``` 
+  ```
       $ wpscan --url wpdistillery.vm -e u vp --api-token (token name) 
   ```
   </li><li> use token to find password using rockyou-75.txt file: </li>
